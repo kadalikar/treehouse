@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="shortcut icon" type="img/jpg" href= "https://treehousee.s3.ap-south-1.amazonaws.com/1.png">
+   
+  <title>Learn Coding Online | Treehouse</title>
+</head>
+
+<body>
+  <!-- START HERE -->
+<style>
+
+
+.nav__logo {
+    height: 2.0rem;
+    transition: all 0.3s;
+  }
+.navbar.nav-link 
+  {
+      font-size: 14px;
+      text-transform: uppercase;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+  }
+
+  .navbar .nav-item .active
+  {
+      border-left:rgb(58, 38, 38) 3px solid ;
+  }
+  .tree img
+  {
+ height: 530px;
+ width: 1222px;
+ 
+  }
+  .centered {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: cornsilk;
+    letter-spacing: 1.5px !important;
+    font-size: 1rem !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 85px;
+  }
+
+
+
+
+.homepage
+{
+ background-color: rgb(16, 17, 16);
+ border-radius: 0px 0px 0px 0px ;
+ font-size: 1.125rem;
+ text-align: center;
+ font-weight: 450;
+ padding: 1.5rem 1.5rem 1.5rem 1.5rem ;
+ margin: -32px -32px 32px -32px;
+ color: white;
+ height: auto;
+  
+}
+.homepage-signup
+{
+    background-color: whitesmoke;   
+    position: relative;
+    top: -100px;
+    padding:  2rem 2rem 2rem 2rem;
+    box-shadow: 0px 2px 4px 0px;
+    margin:auto;
+    width: 550px;
+}
+
+
+.homepage-tabs a {
+    font-weight: 2500;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.homepage-tabs a.active, .homepage-tabs a.active:hover, .homepage-tabs a:hover 
+{
+  color: #61185a;
+  border-bottom: 3px solid #128291;
+  height: 100px;
+  width: 50px;
+}
+
+a {
+    color: #387bab;
+    font-weight: 200;
+    text-decoration: none;
+}
+svg{
+    height: 150px;
+    width: 250px;
+    padding: 0px;
+}
+.items-content
+{
+    height: 200px;
+    width: 350px;
+    float: left;
+    padding-right: 10px;
+    vertical-align: text-bottom;
+}
+ 
+
+.items-images .svg
+{
+    height: 300px;
+    width: 300px;
+}
+.live {
+  font-size: 20px;
+    
+  padding-left: 30px;
+ 
+}
+#enroll button
+
+{
+ height: 60px;
+ padding: 15px;
+ 
+}
+#true
+{
+    background-color:rgba(255, 255, 255, 0.034) ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font: weight 500PX;      
+}
+.one{
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+}
+#btn {
+    text-align: centre;
+    color: rgb(7, 80, 199);
+}
+.text-center button{
+     
+    width: 280px;
+    height: 60px;
+   color: rgb(125, 7, 146);
+   padding: 20px;
+}
+.btn-link  p
+{
+    color: rgb(12, 10, 10);
+    font-size: 20px;
+    font-weight: 1500px;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+}
+ /* footer */
+footer {
+    background: #4a7db1;
+    background: -webkit-linear-gradient(59deg, #c3c5c5, #969797);
+    background: linear-gradient(59deg, #ffffff, #c0c6ca);
+    color: rgb(192, 180, 180);
+    margin-top:20px;
+    width: 100%;
+    height: 460px;
+    }
+    
+    footer a {
+    color: rgb(8, 136, 168);
+    font-size: 18px;
+    transition-duration: 0.2s;
+    }
+    
+    footer a:hover {
+    color: #493f38;
+    text-decoration: none;
+    }
+    
+    
+    .footer-middle {
+    padding-top: 1rem;
+    color: white;
+    font-size: 35px;
+    }
+    .footer-pad ul li {
+    padding-left: 300px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    
+    
+    
+    }
+    
+    .nav-item-logo-icon .icon-logo {
+    fill: #5fcf80;
+    width: 20px;
+    padding-top: 250px;
+    }
+    .treehouse-icon {
+    width: 150px;
+    height: 45px;
+    padding-top: px;
+    }
+    .nav-item-logo-icon {
+    display: block;
+    }
+    p {
+    color: #576366;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 23px;
+    padding-bottom: 0px;
+    }
+    /*SOCİAL İCONS*/
+    
+    /* footer social icons */
+    .col-md-4 ul li 
+    {
+    align-items: center;
+    float: right;
+    padding-top: 50px;
+    }
+    
+    
+    ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+    }
+    
+    ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+    
+    }
+    
+    
+    /* footer social icons */
+    
+    .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+    }
+    
+    .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+    }
+    
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoLinkedin:hover i {
+    color: #fff;
+    }
+    
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+    color: #44BCDD;
+    }
+    
+    .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    }
+    
+    .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+    }
+    
+    .social-circle li a:hover i,
+    .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+    }
+    
+    .social-circle i {
+    color: #ffffff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+    }
+    
+    .social-network a {
+    background-color: #908c8c;
+    }
+
+</style>
+<div class="container">
+  
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-white mb-3" id="main-nav">
+
+    <div class="container">
+      <img src=" https://treehousee.s3.ap-south-1.amazonaws.com/2.png" class="nav__logo"
+          id="logo">
+       
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " href="courses.html"> Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="techdegree.html"> Techdegree </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="teams.html"> Teams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="sigin.html">Sign In </a>
+        </li>
+         
+        <li class="nav-item">
+          <button class="btn btn-info" data-toggle="modal" data-target="#loginModal">Free Trial</button> 
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+  <section>
+     <div class="tree">     
+        <img src="https://treehousee.s3.ap-south-1.amazonaws.com/10.jpg">
+            <div class="centered"><h4 class="text-2-xs text-3-lg">Treehouse Techdegree | Online Bootcamps for Coding &amp; Design</h4>
+                <h1 class="text-3-xs text-1-lg">Build a portfolio, create a network, and land your dream job with Techdegree</h1>
+            </div>
+     </div> 
+ </section>
+
+
+
+ <section class="col-container p-lr-2-xs">
+     <div class="homepage-signup  col col-100-xs col-80-md col-50-lg col-center round">
+       <div class="form-card">
+         <p class="homepage">
+          Try it free for 7  days<span class="regular">, then ₹1,650 a month</span>
+          </p>
+          <div class=""> 
+         <fieldset>
+            <div class="flex-block">
+              <div class="flex-basis">
+                 <div class="page">
+                   <div class="form-item">
+                     <label class="avengers" for="account_signup_email">Email address</label>
+                     <input class="form-control form-control-lg" type="text" placeholder="">   
+                </div>
+                </div>
+               </div>
+               </div>
+  
+        <div class="flex-order">
+              <div>
+                <input name="account_signup[email_consent]" type="hidden" value="0" /><input class="input-checkbox form-checkbox" type="checkbox" value="1" name="account_signup  [email_consent]" id="account_signup_email_consent" />
+                <label class="form-label text-5-xs" for="account_signup_email_consent">I want to hear from Treehouse about products and services.</label>
+             </div>
+        </div>
+  
+          <button name="button" type="submit" class="btn btn-secondary">
+              Join Now
+          </button>      
+    </div>
+        </fieldset>
+      </div>
+   </div>
+</section>
+
+
+
+
+
+ <section class="homepage-tabs">
+    <a class="active" href="tree.html">Courses</a>
+    <a href="tech.html">Techdegree</a>
+    <a href="teams.html">Teams</a>
+    <a href="sigin.html">How it Works</a>
+  </section>
+
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ 
+<!-- svg part 1 -->
+<div class="row">
+  <div class=" col-6 col-sm-3 col-lg-4 d-none d-sm-block" id="guiding" >
+    <div class=" col-md-9 mb-4 text-centre">
+        <div class="roows" style="display:inline-flex;">
+        <div class="itemssss">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="compass-guiding" role="img">
+                <title id="compass-guiding">Guiding Compass</title>
+                <defs><style>.afc9f322-363a-476a-83ce-52286af4dc11{fill:#ecc148;opacity:0.85;}.ad0ca215-5216-438c-9fcc-0c7056e45ff9,.e68d6ddb-54b8-4756-9a14-b8120f8d3acc{fill:none;stroke:#264e96;stroke-linecap:round;stroke-miterlimit:10;}.e68d6ddb-54b8-4756-9a14-b8120f8d3acc{stroke-width:28px;}.ad0ca215-5216-438c-9fcc-0c7056e45ff9{stroke-width:20px;}</style></defs><g id="b52830a9-7843-4641-be10-a4033c315638" data-name="color layering"><circle class="afc9f322-363a-476a-83ce-52286af4dc11" cx="883.632" cy="316.368" r="316.3434"/></g><g id="bda01635-4c9a-4906-98d0-df99879d8c88" data-name="lines"><circle class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" cx="486.3003" cy="600" r="463.7865"/><circle class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" cx="486.3003" cy="600" r="76.8679"/><path class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" d="M841.1274,600c0,195.9656-158.8615,354.8271-354.8271,354.8271"/><path class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" d="M131.4732,600c0-195.9656,158.8615-354.8271,354.8271-354.8271"/><path class="ad0ca215-5216-438c-9fcc-0c7056e45ff9" d="M539.74,653.6352,717.6951,383.741c7.7738-11.79-3.541-23.1048-15.3311-15.3311L432.47,546.3648"/><path class="ad0ca215-5216-438c-9fcc-0c7056e45ff9" d="M432.47,546.3648,254.515,816.259c-7.7738,11.79,3.541,23.1048,15.331,15.3311L539.74,653.6352"/></g>
+                </svg>
+         
+        <div class="col-md-" id="compass" >
+            <h3 > </h3>
+            <p class="live" >Guided learning paths and weekly office hours.</p>
+                <br>
+               
+        </div>
+       </div>
+     </div>
+     </div>
+     </div>
+  <div class=" col-6 col-sm-3 col-lg-4 d-none d-sm-block" >
+    <div class=" col-md-9 mb-4 text-centre">
+        <div class="roows" style="display:inline-flex;">
+        <div class="itemssss">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="floatingChatBoxes" role="img">
+            <title id="floatingChatBoxes">Floating Chat Boxes</title>
+            <defs><style>.ecad261a-b6a1-4733-9be0-cc034a3c76bb{opacity:0.8;}.a93a9ca7-ce7c-4fe2-9ca5-58685db4d22f{fill:#70e08d;}.e40b7050-3f08-4566-b9d2-17ac37833f2c{fill:none;stroke:#264e96;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px;}.b683d6ae-9df3-4777-bce1-9ac2c1abd37a{fill:#264e96;}</style></defs><g id="b8dba19d-fe17-412f-9567-5316f955cbd1" data-name="lines"><g class="ecad261a-b6a1-4733-9be0-cc034a3c76bb"><rect class="a93a9ca7-ce7c-4fe2-9ca5-58685db4d22f" x="590.8297" y="752.3706" width="609.1703" height="447.6294" rx="55.4187"/></g><path class="e40b7050-3f08-4566-b9d2-17ac37833f2c" d="M876.83,476.7205h92.7569a53.831,53.831,0,0,1,53.831,53.8309V872.4769c0,29.107-25.6882,50.5089-52.2574,53.5427a3.4461,3.4461,0,0,0-3.0681,3.4232c-.0019,18.3405-.0018,110.3827-.0018,110.2378a15.4842,15.4842,0,0,1-24.8442,12.335s-134.65-116.065-145.1987-125.1589a2.264,2.264,0,0,0-1.4862-.549H459.3257a53.831,53.831,0,0,1-53.831-53.8309V671.1638"/><path class="e40b7050-3f08-4566-b9d2-17ac37833f2c" d="M786.79,88.3a66.566,66.566,0,0,0-66.557-65.4852H89.2613A66.5656,66.5656,0,0,0,22.6957,89.38V512.1945c0,35.87,31.5481,62.2765,64.2825,66.17a4.635,4.635,0,0,1,4.1312,4.5835c.0023,23.37.0023,136.0054.0023,136.0054a19.1473,19.1473,0,0,0,30.7215,15.2531s171.3736-147.72,180.0182-155.1729a1.1286,1.1286,0,0,1,.7461-.2734h417.636a66.5655,66.5655,0,0,0,66.5655-66.5655V89.38Q786.799,88.8392,786.79,88.3Z"/><circle class="b683d6ae-9df3-4777-bce1-9ac2c1abd37a" cx="299.1004" cy="299.96" r="29.9178"/><circle class="b683d6ae-9df3-4777-bce1-9ac2c1abd37a" cx="404.7475" cy="298.0901" r="29.9178"/><circle class="b683d6ae-9df3-4777-bce1-9ac2c1abd37a" cx="510.3946" cy="298.0901" r="29.9178"/></g>
+            </svg>
+        <div class="col-md-" id="tool" >
+          <h3  > </h3>
+          <p  class="live" > Learn professional, technical, and soft skills</p>
+            <br>
+            
+        </div>
+       </div>
+     </div>
+     </div>
+     </div>
+  <div class=" col-6 col-sm-3 col-lg-4 d-none d-sm-block" >
+    <div class=" col-md-9 mb-4 text-centre">
+        <div class="roows" style="display:inline-flex;">
+        <div class="itemssss">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="group-of-people" role="img">
+            <title id="group-of-people">Group of People</title>
+            <defs><style>.b587744a-280b-419d-80f0-a181246ba84a{fill:#fc8738;opacity:0.85;}.b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64,.f4c781bf-7475-4360-a703-c276805c52d0{fill:none;stroke:#264e96;stroke-miterlimit:10;stroke-width:28px;}.f4c781bf-7475-4360-a703-c276805c52d0{stroke-linecap:round;}</style></defs><g id="a7521373-4aaf-4116-855d-df05c7e9b980" data-name="color layering"><circle class="b587744a-280b-419d-80f0-a181246ba84a" cx="883.632" cy="316.368" r="316.3434"/></g><g id="a408dfb6-ec4b-4d33-b68d-9f56b2f6e84c" data-name="lines"><path class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" d="M540.3817,552.0573h35.99a211.1,211.1,0,0,1,211.1,211.1V890.27a39.8047,39.8047,0,0,1-39.8047,39.8047H369.0867A39.8047,39.8047,0,0,1,329.282,890.27V763.157A211.1,211.1,0,0,1,540.3817,552.0573Z"/><circle class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" cx="558.3765" cy="339.4157" r="131.5024"/><path class="f4c781bf-7475-4360-a703-c276805c52d0" d="M847.8372,578.8137A186.5963,186.5963,0,0,1,931.91,558.94h0c103.4855,0,187.3772,83.8916,187.3772,187.3772V836.79a31.3317,31.3317,0,0,1-31.3317,31.3317H890.3267"/><circle class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" cx="931.9097" cy="377.4225" r="107.5564"/><path class="f4c781bf-7475-4360-a703-c276805c52d0" d="M288.82,578.8137a186.5963,186.5963,0,0,0-84.0723-19.874h0C101.2615,558.94,17.37,642.8313,17.37,746.3169V836.79a31.3317,31.3317,0,0,0,31.3317,31.3317H246.33"/><circle class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" cx="204.7472" cy="377.4225" r="107.5564"/></g>
+            </svg>
+         
+        <div class="col-md-" >
+          <h3> </h3>
+          <p class="live">Live chat support and community via Slack.</p>
+            <br>
+            
+        </div>
+       </div>
+     </div>
+     </div>
+     </div>
+ </div>
+     
+</div>  
+
+<br>
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-6">
+      <div class="items" style="display:inline-flex;">
+      <div class="items-img">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="browserWindowWithProgress" role="img">
+          <title id="browserWindowWithProgress">Browser Window For Learning</title>
+          <defs><style>.a54b17fe-e89b-4214-98b4-b18dbdf1184d{fill:#70e08d;opacity:0.8;}.b175ae7b-ff4a-4769-8508-1396f6ed793e,.e153ea9b-a3f2-4508-82bd-5d4d34486ca0,.f59e167f-98db-483e-a0c0-5d7ba85e1edf{fill:none;stroke:#264e96;}.e153ea9b-a3f2-4508-82bd-5d4d34486ca0,.f59e167f-98db-483e-a0c0-5d7ba85e1edf{stroke-linecap:round;}.b175ae7b-ff4a-4769-8508-1396f6ed793e,.f59e167f-98db-483e-a0c0-5d7ba85e1edf{stroke-miterlimit:10;}.f59e167f-98db-483e-a0c0-5d7ba85e1edf{stroke-width:28px;}.e5517925-2874-4271-b9fc-f89f546c1d45{fill:#264e96;}.b175ae7b-ff4a-4769-8508-1396f6ed793e{stroke-width:20px;}.e153ea9b-a3f2-4508-82bd-5d4d34486ca0{stroke-linejoin:round;stroke-width:16px;}</style></defs><g id="ff05a0da-ec95-45d5-8364-e70d72f6e972" data-name="color layering"><circle class="a54b17fe-e89b-4214-98b4-b18dbdf1184d" cx="884.864" cy="315.136" r="315.0952"/></g><g id="ac1c7c90-2fea-4c84-be5b-2390ec7d9426" data-name="lines"><line class="f59e167f-98db-483e-a0c0-5d7ba85e1edf" x1="39.9462" y1="353.0081" x2="1109.1263" y2="353.0081"/><circle class="e5517925-2874-4271-b9fc-f89f546c1d45" cx="106.5518" cy="283.4648" r="21.1539"/><circle class="e5517925-2874-4271-b9fc-f89f546c1d45" cx="178.0579" cy="283.4648" r="21.1539"/><circle class="e5517925-2874-4271-b9fc-f89f546c1d45" cx="249.5639" cy="283.4648" r="21.1539"/><rect class="f59e167f-98db-483e-a0c0-5d7ba85e1edf" x="24.0219" y="214.2021" width="1085.7003" height="771.5959" rx="39.0384"/><circle class="b175ae7b-ff4a-4769-8508-1396f6ed793e" cx="566.8721" cy="668.7134" r="80.5913"/><circle class="b175ae7b-ff4a-4769-8508-1396f6ed793e" cx="884.0642" cy="668.7134" r="80.5913"/><polyline class="e153ea9b-a3f2-4508-82bd-5d4d34486ca0" points="846.988 672.689 870.853 696.554 921.14 646.267"/><polygon class="e153ea9b-a3f2-4508-82bd-5d4d34486ca0" points="236.431 705.098 284.943 668.713 236.431 632.329 236.431 705.098"/><line class="e153ea9b-a3f2-4508-82bd-5d4d34486ca0" x1="690.7539" y1="668.7134" x2="760.1823" y2="668.7134"/><circle class="b175ae7b-ff4a-4769-8508-1396f6ed793e" cx="249.68" cy="668.7134" r="80.5913"/><line class="e153ea9b-a3f2-4508-82bd-5d4d34486ca0" x1="373.5618" y1="668.7134" x2="442.9902" y2="668.7134"/></g>
+        </svg>
+      </div>
+     <div class="items-content text-bottom">
+        <h4> Built on the Treehouse Learning Platform</h4>
+        <p>Techdegree is built on the Treehouse learning style, with interactive videos, workspaces, quizzes and more. </p>
+     </div>
+    </div>
+  </div>
+  
+  <div class="col-md-1">
+      <div class="items" style="display:inline-flex;">
+      <div class="items-img">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="degree-folder" role="img">
+          <title id="degree-folder">Stack of folders</title>
+          <defs><style>.b549e265-2516-473e-9b88-ae0576ac19e3{fill:#fc8738;opacity:0.85;}.b4f30ab1-4dbd-4be1-879a-34b9b4fff8b1,.ea604ab1-1fdf-4adc-b2ef-ab19841a7535{fill:none;stroke:#264e96;stroke-miterlimit:10;stroke-width:28px;}.b4f30ab1-4dbd-4be1-879a-34b9b4fff8b1{stroke-linecap:round;}</style></defs><g id="b622a6ad-b35d-4965-ac3e-e4a261fc7b26" data-name="lines"><rect class="b549e265-2516-473e-9b88-ae0576ac19e3" x="597.9554" y="724.9974" width="602.0449" height="475.0026" rx="46.821" transform="translate(1797.9556 1924.9974) rotate(180)"/><path class="ea604ab1-1fdf-4adc-b2ef-ab19841a7535" d="M941.3075,242.3477l-661.8239-.1532a1.1413,1.1413,0,0,1-1.141-1.1413V210.2461a60.0182,60.0182,0,0,0-60.0182-60.0182H82.0182A60.0181,60.0181,0,0,0,22,210.2459l.707,85.2908V933.761a29.4721,29.4721,0,0,0,29.4721,29.4721H999.0145a29.4722,29.4722,0,0,0,29.4722-29.4721V271.8965a29.4722,29.4722,0,0,0-29.4722-29.4721l-72.3074-.0231"/><path class="b4f30ab1-4dbd-4be1-879a-34b9b4fff8b1" d="M137.0139,1049.7721h946.8354a29.4722,29.4722,0,0,0,29.4722-29.4722V358.4355"/></g>
+        </svg>
+      </div>
+     <div class="items-content">
+        <h4 class="H">Real-world Projects</h4>
+        <p class="H">After completing Techdegree, you&rsquo;ll have a well-rounded portfolio of projects to demonstrate your newly-acquired expertise.</p>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+ 
+ 
+<hr>
+<br>
+ 
+<div class="row">
+  <div class="col-md-6">
+    <div class="items" style="display:inline-flex;">
+    <div class="items-images">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="pencilFillingOutQuiz" role="img">
+        <title id="pencilFillingOutQuiz">Pencil Filling Out A Quiz</title>
+        <defs><style>.eae04c9a-6b11-4880-b3a6-a3d65cd3c07d{fill:#ecc148;opacity:0.85;}.a40d413d-2437-46fa-b999-df830690814f,.bb976eb8-d940-4ef8-bcb9-967084811d96,.f9e76021-6ab3-41cd-bd2f-cd0b451ecf59{fill:none;}.a40d413d-2437-46fa-b999-df830690814f,.b2695b71-14d8-4562-8bd4-dbd18b7a735b,.bb976eb8-d940-4ef8-bcb9-967084811d96,.f9e76021-6ab3-41cd-bd2f-cd0b451ecf59{stroke:#264e96;stroke-miterlimit:10;}.a40d413d-2437-46fa-b999-df830690814f,.bb976eb8-d940-4ef8-bcb9-967084811d96{stroke-linecap:round;}.a40d413d-2437-46fa-b999-df830690814f{stroke-width:28px;}.bb976eb8-d940-4ef8-bcb9-967084811d96,.f9e76021-6ab3-41cd-bd2f-cd0b451ecf59{stroke-width:20px;}.b2695b71-14d8-4562-8bd4-dbd18b7a735b{fill:#264e96;stroke-width:2px;}</style></defs><g id="bd9a4521-8f19-4f26-b4e4-840aeab7ce94" data-name="lines"><rect class="eae04c9a-6b11-4880-b3a6-a3d65cd3c07d" x="564.5769" y="564.5769" width="691.2846" height="579.5615" rx="55.4187" transform="translate(1764.5769 -55.8616) rotate(90)"/><path class="a40d413d-2437-46fa-b999-df830690814f" d="M959.515,469.4607v560.5211a60.1073,60.1073,0,0,1-60.1073,60.1073H241.8717a60.1073,60.1073,0,0,1-60.1073-60.1073V213.415a60.1072,60.1072,0,0,1,60.1073-60.1073H750.3734"/><path class="bb976eb8-d940-4ef8-bcb9-967084811d96" d="M795.6264,600.444c-93.0054,101.7042-93.0054,101.7042-87.5456-36.4181L934.8869,18.8047a1.2,1.2,0,0,1,1.5692-.6472l85.3293,35.4961a1.2,1.2,0,0,1,.6472,1.5692Z"/><line class="f9e76021-6ab3-41cd-bd2f-cd0b451ecf59" x1="904.9317" y1="106.439" x2="990.261" y2="141.9351"/><path class="b2695b71-14d8-4562-8bd4-dbd18b7a735b" d="M444.588,344.6938l-.0824-.09a5.4366,5.4366,0,0,0-8.159,0l-40.12,43.7572L379.92,370.5768a5.4364,5.4364,0,0,0-8.159,0l-.0824.09a6.7025,6.7025,0,0,0,0,8.8987l20.457,22.3116a5.462,5.462,0,0,0,8.1809,0l44.2711-48.2844A6.7028,6.7028,0,0,0,444.588,344.6938Z"/><circle class="f9e76021-6ab3-41cd-bd2f-cd0b451ecf59" cx="408.1335" cy="373.2401" r="77.8169"/><path class="b2695b71-14d8-4562-8bd4-dbd18b7a735b" d="M444.588,593.5139l-.0824-.09a5.4367,5.4367,0,0,0-8.159,0l-40.12,43.7572L379.92,619.3969a5.4366,5.4366,0,0,0-8.159,0l-.0824.09a6.7025,6.7025,0,0,0,0,8.8987l20.457,22.3116a5.462,5.462,0,0,0,8.1809,0l44.2711-48.2845A6.7028,6.7028,0,0,0,444.588,593.5139Z"/><circle class="f9e76021-6ab3-41cd-bd2f-cd0b451ecf59" cx="408.1335" cy="622.0603" r="77.8169"/><path class="b2695b71-14d8-4562-8bd4-dbd18b7a735b" d="M444.588,842.3341l-.0824-.09a5.4366,5.4366,0,0,0-8.159,0l-40.12,43.7572L379.92,868.2171a5.4366,5.4366,0,0,0-8.159,0l-.0824.09a6.7024,6.7024,0,0,0,0,8.8986l20.457,22.3116a5.462,5.462,0,0,0,8.1809,0l44.2711-48.2844A6.7028,6.7028,0,0,0,444.588,842.3341Z"/><circle class="f9e76021-6ab3-41cd-bd2f-cd0b451ecf59" cx="408.1335" cy="870.8804" r="77.8169"/></g>
+      </svg>
+          
+    </div>
+    <div class="items-content">
+        <h4>Interactive Quizzes and Code Challenges</h4>
+        <p>Test your knowledge with quizzes or test out of subjects you&rsquo;ve already mastered. Plus, use Treehouse&rsquo;s interactive Workspaces to create staging environments for the code you write.</p>
+    </div>
+   </div>
+ </div>
+
+
+ <div class="col-md-1">
+    <div class="items" style="display:inline-flex;">
+    <div class="items-imgg">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="codingLaptop" role="img">
+        <title id="codingLaptop">Laptop with Code on Screen</title>
+        <defs><style>.aa9dc787-5732-4aaf-b6ae-877989f3808c{fill:#70e08d;opacity:0.8;}.b7cf804d-aa56-4c79-9331-63350b2879f3,.bdff885f-ccfa-467b-af6f-dd4b19e0ff13,.f135dafa-59a3-48f1-b70f-790ed8b554c4{fill:none;stroke:#264e96;}.b7cf804d-aa56-4c79-9331-63350b2879f3,.bdff885f-ccfa-467b-af6f-dd4b19e0ff13{stroke-linecap:round;stroke-miterlimit:10;}.b7cf804d-aa56-4c79-9331-63350b2879f3,.f135dafa-59a3-48f1-b70f-790ed8b554c4{stroke-width:28px;}.bdff885f-ccfa-467b-af6f-dd4b19e0ff13{stroke-width:20px;}.f135dafa-59a3-48f1-b70f-790ed8b554c4{stroke-linejoin:round;}.ac9ab4ec-7ce8-4393-a96f-71cf72c58de0{fill:#264e96;}</style></defs><g id="b48078b5-6fff-49b9-9ca8-111c7779f04d" data-name="color layering"><circle class="aa9dc787-5732-4aaf-b6ae-877989f3808c" cx="884.864" cy="315.136" r="315.0952"/></g><g id="ebb5dbeb-e2d8-4858-bcaf-7353a2ffc7d5" data-name="lines"><path class="b7cf804d-aa56-4c79-9331-63350b2879f3" d="M1092.0938,822.4854V259.41c0-30.7416-25.6242-55.6626-57.2333-55.6626H165.14c-31.6091,0-57.2333,24.921-57.2333,55.6626V823.5985"/><rect class="bdff885f-ccfa-467b-af6f-dd4b19e0ff13" x="190.5043" y="289.9966" width="818.9915" height="542.9387" rx="8.0296"/><path class="f135dafa-59a3-48f1-b70f-790ed8b554c4" d="M596.8906,996.2527H143.1662c-98.2624,0-122.1021-41.6016-122.1021-92.92H596.8906"/><path class="f135dafa-59a3-48f1-b70f-790ed8b554c4" d="M567.0039,996.2527h489.83c98.2624,0,122.1021-41.6016,122.1021-92.92H586.5235"/><path class="ac9ab4ec-7ce8-4393-a96f-71cf72c58de0" d="M506.5815,624.8108l-79.4431-48.2652a20.2665,20.2665,0,0,1-10.5637-18.2681v-2.1817a20.2666,20.2666,0,0,1,10.5637-18.2682l79.4431-48.2651a12.2165,12.2165,0,0,1,6.8222-2.1818c5.7209-.2723,10.7823,6.0006,10.7823,13.9076,0,6.273-2.861,10.9058-7.4816,13.6353l-72.4011,41.9892,72.4011,42.2645c4.6206,2.7265,7.4816,7.6347,7.4816,13.9076,0,8.1794-5.0614,13.9046-11.6627,13.9046A12.355,12.355,0,0,1,506.5815,624.8108Z"/><path class="ac9ab4ec-7ce8-4393-a96f-71cf72c58de0" d="M543.9933,670.3465,634,441.845c1.9806-4.9082,5.2812-7.6346,9.6821-7.6346,5.722,0,10.3438,5.7252,10.3438,12.5429a25.74,25.74,0,0,1-1.1,6.5453L562.6993,681.7969c-1.9806,4.9083-5.0615,7.6377-9.4623,7.6377-5.722,0-10.5637-5.7282-10.5637-12.5428A18.4448,18.4448,0,0,1,543.9933,670.3465Z"/><path class="ac9ab4ec-7ce8-4393-a96f-71cf72c58de0" d="M693.42,489.5625l79.2233,48.2651a20.0515,20.0515,0,0,1,10.7823,18.2682v2.1817a20.0514,20.0514,0,0,1-10.7823,18.2681L693.42,624.8108a12.2134,12.2134,0,0,1-6.8222,2.1787c-5.7221.2754-10.7835-5.9976-10.7835-13.9046,0-6.2729,2.861-10.9058,7.4829-13.36l72.401-42.2645-72.401-42.2645c-4.6219-2.7265-7.4829-7.6347-7.4829-13.9077,0-8.1793,5.0614-13.9076,11.6639-13.9076C689.4585,487.3807,691.6589,488.4731,693.42,489.5625Z"/></g>
+      </svg>
+    
+    </div>
+    <div class="items-content">
+        <h4>In-depth Code Reviews</h4>
+        <p>Peer reviews are an integral part of the Techdegree experience. Real-world job roles often require a lot of reviewing other people&rsquo;s code and design&mdash;once you graduate Techdegree, you&rsquo;ll have experience giving and receiving feedback.</p>
+    </div>
+   </div>
+ </div>
+
+
+</div>
+
+
+<div class="text-center" id="enroll">
+  <button type="button" class="btn btn-info" href="/subscribe/new?trial=yes">Enroll Now</button>
+</div>
+
+<br>
+<br>
+<br>
+
+<hr>
+<!-- question and anwers -->
+<section id="true">
+  <div id="accordion">
+    <div class=" ">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <h2 class="one">Q&A</h2>
+          <button class=" btn btn-link  collapsed " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <p>  How long does it take to complete a Techdegree?</p> 
+          </button>
+        </h5>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          <p>Techdegree programs are self-paced, which means the time it takes to complete it is up to you! For reference, we've found that by committing three hours per day to your studies, students have been able to complete each of the following Techdegree programs in as little as:</p>
+
+          <ul>
+          <li>Front End Web Development - 4 months</li>
+          <li>Full Stack JavaScript - 5 months</li>
+          <li>User Experience (UX) Design - 3 months</li>
+          <li>Python Development - 2 months</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p>Should I complete any courses to prepare for the Techdegree?</p> 
+            
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+          <p>Nope! Techdegree programs are designed to take you from a beginner level and teach you all you need to build a solid technical foundation in a given topic.</p>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <P>Can I skip courses if I have previously completed them as a student?</p>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          <p>Yes, if you've already completed a course using the same Treehouse account, it will be marked completed in the Techdegree. You can also use Compass, our assessment tool, to test out of any subjects that you already have a strong command of. </p>
+        </div>
+        </div>
+      </div>
+    <div class="">
+      <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <p>How much does the Techdegree cost?</p>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+        <div class="card-body">
+          <p>Students pay for the Techdegree program on a monthly basis. The Techdegree program costs $199/month.</p>
+        </div>
+        </div>
+      </div>
+    <div class="">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <p>What kind of learning support do you offer?</p>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+        <div class="card-body">
+          <p>You will get personalized feedback on each of your projects to ensure you are on the right track with your work. You will gain access to an exclusive Slack channel where you can connect with other Techdegree students 24/7.</p>
+        </div>
+        </div>
+      </div>
+    <div class="">
+      <div class="card-header" id="headingSix">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <p>What if I have a question that isn't answered here?</p>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+        <div class="card-body">
+          <p>Refer to our <a href="/support">Support Center</a>, or reach out directly to <a href="mailto:help@teamtreehouse.com">help@teamtreehouse.com</a>. We're here to help!</p>
+        </div>
+        </div>
+      </div>
+       <br>
+       <br>
+       
+
+    
+      <div class="text-center">
+        <button type="button" id="true" class="btn btn-secondary" href="/subscribe/new?trial=yes">Start Your Free Trial</button>
+      </div>
+    
+    </div>
+  </section>
+ 
+
+
+  <hr>
+
+  
+ 
+
+ 
+  <div class="progress" style="height:3px;">
+  <div class="progress-bar bg-warning" style="width:15%;"></div>
+  <div class="progress-bar bg-success" style="width:15%;"></div>
+  <div class="progress-bar bg-primary" style="width:15%;"></div>
+  <div class="progress-bar bg-danger" style="width:15%;"></div>
+  <div class="progress-bar bg-secondary" style="width:15%;"></div>
+  <div class="progress-bar bg-info" style="width:15%;"></div>
+  <div class="progress-bar bg-dark" style="width:15%;"></div>
+  <div class="progress-bar bg-muted" style="width:15%;"></div>
+</div>
+
+
+<br>
+<br>
+<br>
+ 
+ 
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+  <div class="treehouse-icon"> <a title="" data-featurette="analytics-click-event" data-event-category="button" data-event-action="M: Clicked Treehouse Logo" data-event-label="Source: Navbar" data-analytics-event="marketing nav link" data-analytics-link="Treehouse Logo" data-analytics-path="https://teamtreehouse.com/" data-analytics-action="clicked" class="nav-link nav-link-logo" href="https://teamtreehouse.com/"><svg alt="" class="treehouse-icon nav-item-logo-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 139 32" aria-labelledby="treehouseLogo8731501" role="img">
+    <title id="treehouseLogo8731501">Treehouse Logo</title>
+  <path class="icon-treehouse" d="M42.8 21.1c-0.4 0.1-0.9 0.2-1.4 0.2 -1 0-1.4-0.6-1.4-1.6v-4.5h2.8c0.7 0 1.4-0.5 1.4-1.3s-0.6-1.3-1.4-1.3H40v-1.5c0-0.9-0.7-1.5-1.5-1.5S37 10.3 37 11.1v8.7c0 2.5 1.2 4.3 4 4.3 0.8 0 1.9-0.1 2.7-0.5 0.7-0.3 0.9-0.8 0.9-1.3C44.6 21.6 43.9 20.9 42.8 21.1zM52.8 12.2c-0.4-0.1-1.2-0.2-1.9-0.2 -2.5 0-3.9 1.5-3.9 3.8v6.8c0 0.8 0.7 1.5 1.5 1.5s1.5-0.7 1.5-1.5v-6.2c0-1 0.4-1.4 1.1-1.4s1.1 0.2 1.7 0.2c0.9 0 1.4-0.8 1.4-1.4C54.1 13 53.7 12.5 52.8 12.2zM61.1 12c-2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3h5.7c1 0 1.5-0.6 1.5-1.5v-0.5C66 14 64 12 61.1 12zM63 17.1h-4.2c0-1.5 0.7-2.5 2.3-2.5 1.4 0 2.2 0.9 2.1 2.2C63.2 17 63.2 17.1 63 17.1zM73.1 12c-2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3h5.7c1 0 1.5-0.6 1.5-1.5v-0.5C78 14 76 12 73.1 12zM75 17.1h-4.2c0-1.5 0.7-2.5 2.3-2.5 1.4 0 2.2 0.9 2.1 2.2C75.2 17 75.2 17.1 75 17.1zM123.6 17l-1.6-0.4c-1-0.2-1.3-0.5-1.3-1s0.5-0.9 1.6-0.9c0.6 0 1.3 0.2 1.9 0.5 0.7 0.4 1.5 0.3 1.9-0.2 0.5-0.5 0.5-1.4-0.1-2 -0.8-0.6-2.2-1-3.6-1 -2.6 0-4.5 1.3-4.5 3.7 0 1.9 1.4 2.9 3.2 3.4 0.9 0.2 0.8 0.2 1.6 0.4 0.9 0.2 1.3 0.6 1.3 1 0 0.6-0.5 1-1.7 1 -1 0-1.9-0.3-2.6-0.7 -0.7-0.5-1.5-0.3-1.9 0.3 -0.4 0.6-0.3 1.4 0.3 1.8 0.8 0.7 2.1 1.3 4.2 1.3 2.6 0 4.6-1.4 4.6-3.8C126.9 18.6 125.8 17.5 123.6 17zM137.5 19.1c1 0 1.5-0.6 1.5-1.5l0 0v-0.5c0-3.1-2-5.1-4.9-5.1 -2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3H137.5zM134.1 14.6c1.4 0 2.2 0.9 2.1 2.2 0 0.2-0.1 0.3-0.2 0.3h-4.2C131.8 15.6 132.6 14.6 134.1 14.6zM97.5 12c-3 0-5.2 1.9-5.5 4.5 -0.1 0.9-0.1 2.3 0 3.2 0.2 2.6 2.5 4.5 5.5 4.5s5.2-1.9 5.4-4.5c0.1-0.9 0.1-2.2 0-3.1C102.7 13.9 100.5 12 97.5 12zM99.9 19.2c-0.1 1.3-1 2.1-2.4 2.1s-2.3-0.9-2.4-2.1c0-0.6 0-1.6 0-2.2 0.1-1.3 1-2.1 2.4-2.1s2.3 0.9 2.4 2.1C100 17.6 100 18.6 99.9 19.2zM85.6 12c-1.1 0-2.3 0.4-2.7 0.9l0 0V9.7c0-0.9-0.6-1.5-1.4-1.5s-1.4 0.7-1.4 1.5v12.9c0 0.8 0.7 1.5 1.5 1.5s1.4-0.7 1.4-1.5v-6.7c0.5-0.5 1.3-0.9 2.3-0.9 1.2 0 1.9 0.7 1.9 2.1v5.5c0 0.9 0.6 1.6 1.4 1.6 0.9 0 1.5-0.7 1.5-1.6v-5.7C90 13.7 88.4 12 85.6 12zM113.6 12.1c-0.8 0-1.5 0.7-1.5 1.5v7.1c-0.5 0.3-1.2 0.6-2.1 0.6 -1.2 0-2.1-0.7-2.1-2.1v-5.6c0-0.9-0.7-1.6-1.5-1.6 -0.9 0-1.4 0.7-1.4 1.6v5.7c0 3.1 1.8 4.8 4.9 4.8 2.3 0 3.9-0.8 4.6-1.3 0.4-0.2 0.5-0.5 0.5-1v-8.2C115 12.8 114.4 12.1 113.6 12.1z"></path><path class="icon-logo" d="M26 5.9c-1.1-0.6-2.8 0.4-3.8 2.2l-1.9 3.2c-0.7 1.3-0.6 2.9 0.3 4.2l0.1 0.1c0.9 1.2 2 2.4 2.4 2.8 0.2 0.2 0.4 0.5 0.5 0.9 0.3 1.1-0.3 2.3-1.5 2.6 -1.1 0.3-2.3-0.3-2.6-1.5 -0.1-0.3-0.1-0.6-0.1-0.8 0.1-0.5-0.1-1.2-0.8-2 -0.7-0.7-2 0.7-2.5 2.1v0.1c-0.4 1.4-0.7 2.7-0.6 2.8 0 0.1 0.1 0.1 0.1 0.2 0.6 1.2 0.2 2.6-1 3.2s-2.6 0.2-3.2-1 -0.2-2.6 1-3.2c0.1 0 0.1-0.1 0.2-0.1s0.3-0.6 0.6-1.4c0.2-0.7 0.3-1 0.4-1.3 0.1-0.4 0.3-1.4 0.2-1.8 -0.1-0.5-0.6-0.5-1.1-0.2 -0.3 0.2-0.9 0.7-1.1 0.9 -0.5 0.4-0.9 1-1.1 1.5 -0.1 0.2-0.3 0.5-0.5 0.7 -0.9 0.7-2.2 0.6-3-0.3 -0.7-0.9-0.6-2.2 0.3-3 0.3-0.2 0.6-0.4 0.9-0.4 0.5-0.1 2.3-1.2 3.4-2 0.2-0.1 0.5-0.4 0.6-0.5 0.3-0.4 0-0.7-0.3-0.7 -0.9 0.1-1.9 0.2-2.1 0.5 -0.1 0.1-0.2 0.3-0.4 0.4 -0.8 0.6-2 0.4-2.6-0.4s-0.4-2 0.4-2.6c0.3-0.3 0.8-0.4 1.1-0.4 0.7 0 2.5 0.4 3.9 0.1l0.4-0.1c1.5-0.3 3.3-1.6 4-2.9 0 0 0.7-1.2 1.5-2.7C19 3.6 18.9 1.9 18 1.4l-1.7-1c-0.9-0.5-2.2-0.5-3.1 0L1.6 7C0.7 7.5 0 8.7 0 9.7v12.8c0 1 0.7 2.2 1.6 2.7l11.6 6.6c0.9 0.5 2.3 0.5 3.1 0l11.6-6.6c0.9-0.5 1.6-1.7 1.6-2.7V9.7c0-1-0.7-2.2-1.6-2.7C27.9 7 27.1 6.5 26 5.9z"></path>
+  </svg></a> </div>
+   
+    <P  class="m-b-2">© 2021 Treehouse Island, Inc.</P>
+  
+  <div class="row">
+  <div class="col-md-2 col-sm-6">
+    <!--Column1-->
+    <div class="footer-pad">
+       
+      <ul class="list-unstyled">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+    
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-4">
+    <!--Column1-->
+    <div class="footer-pad">
+      
+      <ul class="list-unstyled">
+        <li><a href="#">Library</a></li>
+        <li><a href="#">Tracks</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-6">
+    <!--Column1-->
+    <div class="footer-pad" id="shop">
+   
+      <ul class="list-unstyled">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Affiliate</a></li>
+        <li><a href="#">Treehouse</a></li>
+        
+         
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <!--Column1-->
+    <div class="footer-pad"  > 
+      <ul class="list-unstyled">
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">privacy</a></li>
+        <li><a href="#"> Shop</a></li>
+        
+         
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4">
+   
+        <ul class="social-network social-circle">
+         <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-youtube"></i></a></li>
+         <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
+        </ul>				
+  </div>
+  </div>
+  
+  
+  </div>
+  </div>
+  
+  </div>
+  
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+</body>
+
+</html>
